@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+	<addon id="script.module.magneto" version="1.0.0" name="Magneto Scrapers Module" provider-name="dude2714">
+		<requires>
+			<import addon="xbmc.python" version="3.0.0"/>
+			<import addon="script.module.requests"/>
+		</requires>
+		<extension point="xbmc.python.module" library="lib"/>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Torrent scraper module providing 11 sources for Kodi addons</summary>
+			<description lang="en">Standalone Python module providing torrent scraper functionality for Kodi video addons. Includes Torrentio, Comet, Zilean, DMM, MediaFusion, PirateBay, and more.</description>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+			<source>https://github.com/dude2714/magneto-module-scraper</source>
+			<assets>
+				<icon>https://raw.githubusercontent.com/dude2714/magneto-module-scraper/main/icon.jpg</icon>
+				<fanart>https://raw.githubusercontent.com/dude2714/magneto-module-scraper/main/fanart.jpg</fanart>
+			</assets>
+		</extension>
+	</addon>
+</addons>
